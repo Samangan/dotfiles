@@ -55,3 +55,6 @@
 
 ;; Turn off evil mode by default:
 (evil-mode 0)
+
+(map! "s-{" #'centaur-tabs-backward
+      "s-}" #'centaur-tabs-forward)
