@@ -58,3 +58,6 @@
 
 (map! "s-{" #'centaur-tabs-backward
       "s-}" #'centaur-tabs-forward)
+
+(map! "M-." #'lsp-find-definition
+      "M-/" #'lsp-find-references)
